@@ -1,0 +1,54 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: 
+    #f8f8f0; /* Bege */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  
+}
+
+h1 {
+    text-align: center;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.side-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.side-images img {
+    max-width: 30%;
+    height: auto;
+}
+
+.text-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-container p {
+    font-family: "Times New Roman", serif;
+}
+
+.audio-player {
+    margin-top: 20px; /* Adicionando espaço acima do player de áudio */
+    text-align: center;
+}
